@@ -36,9 +36,8 @@ print (text [::-1])
 #writes the words in reverse order
 print (" ".join(text.split()[::-1]))
 
+#writes letters within a word in reverse order - text2 is a temporary variable
 text2 = " ".join(text.split()[::-1])
-
-#writes letters within a word in reverse order
 print (text2[::-1])
 
 
