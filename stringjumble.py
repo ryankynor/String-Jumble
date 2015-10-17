@@ -1,7 +1,8 @@
 """
 stringjumble.py
 Author: Ryan Kynor
-Credit: http://stackoverflow.com/questions/1009160/reverse-the-ordering-of-words-in-a-string
+Credit: 
+http://stackoverflow.com/questions/1009160/reverse-the-ordering-of-words-in-a-string
 
 Assignment:
 
@@ -28,7 +29,7 @@ erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 text = input("Please enter a string of text (the bigger the better): ")
 
 
-print ('You entered "{0}".'.format(text))
+print ('You entered "{0}". Now jumble it:'.format(text))
 
 #writes all letters in reverse order
 print (text [::-1])
