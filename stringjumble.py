@@ -30,8 +30,15 @@ text = input("Please enter a string of text (the bigger the better): ")
 
 print ('You entered "{0}".'.format(text))
 
+#writes all letters in reverse order
 print (text [::-1])
+
+#writes the words in reverse order
 print (" ".join(text.split()[::-1]))
-print (" ".join(text.split())[::])
+
+text2 = " ".join(text.split()[::-1])
+
+#writes letters within a word in reverse order
+print (text2[::-1])
 
 
